@@ -8,10 +8,7 @@
       "args": [
         "index.js"
       ],
-      "cwd": "${extensionPath}",
-      "env": {
-        "UNSPLASH_ACCESS_KEY": "${UNSPLASH_ACCESS_KEY}"
-      }
+      "cwd": "${extensionPath}"
     }
   }
 }

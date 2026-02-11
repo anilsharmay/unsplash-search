@@ -11,9 +11,15 @@ This extension adds image search capabilities to Gemini CLI using the Unsplash A
     - Create a new application to get an Access Key.
 
 2.  **Configure Environment**:
-    Set the `UNSPLASH_ACCESS_KEY` environment variable in your shell profile (e.g., `.zshrc` or `.bashrc`), or pass it before running the CLI.
+    
+    You can either export the key in your shell profile (e.g., `.zshrc`):
     ```bash
     export UNSPLASH_ACCESS_KEY="your_access_key_here"
+    ```
+    
+    OR create a `.env` file in the extension directory with:
+    ```
+    UNSPLASH_ACCESS_KEY=your_access_key_here
     ```
 
 ### Install via Gemini CLI
