@@ -24,11 +24,23 @@ This extension adds image search capabilities to Gemini CLI using the Unsplash A
 
 ### Install via Gemini CLI
 
-You can install this extension directly from the GitHub repository:
+1.  Run the install command:
+    ```bash
+    gemini extensions install https://github.com/anilsharmay/unsplash-search
+    ```
 
-```bash
-gemini extensions install https://github.com/anilsharmay/unsplash-search
-```
+2.  **IMPORTANT: Install Dependencies**
+    The extension requires external libraries. You must install them manually after adding the extension:
+    ```bash
+    cd ~/.gemini/extensions/unsplash-image-search
+    npm install
+    ```
+
+3.  **Configure Environment** (if you haven't globally exported the key):
+    Create a `.env` file in that same directory:
+    ```bash
+    echo "UNSPLASH_ACCESS_KEY=your_key_here" > .env
+    ```
 
 ## Usage
 
