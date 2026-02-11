@@ -1,0 +1,17 @@
+{
+  "name": "Unsplash Image Search",
+  "description": "Search for high-quality photos on Unsplash.",
+  "version": "1.0.0",
+  "mcpServers": {
+    "unsplash": {
+      "command": "node",
+      "args": [
+        "index.js"
+      ],
+      "cwd": "${extensionPath}",
+      "env": {
+        "UNSPLASH_ACCESS_KEY": "${UNSPLASH_ACCESS_KEY}"
+      }
+    }
+  }
+}
